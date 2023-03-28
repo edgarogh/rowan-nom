@@ -1,0 +1,19 @@
+[package]
+name = "rowan-nom"
+version = "0.1.0"
+authors = ["Edgar Onghena <dev@edgar.bzh>"]
+edition = "2021"
+description = "Build rowan green ASTs using nom parsers"
+repository = "https://github.com/edgarogh/rowan-nom"
+license = "MIT OR Apache-2.0"
+keywords = ["nom", "rowan"]
+categories = ["parsing", "data-structures"]
+
+[dependencies]
+nom = "7.1"
+rowan = "0.15"
+thiserror = "1.0"
+
+[dev-dependencies]
+logos = "0.12.1"
+enum-ordinalize = "3.1.12"
